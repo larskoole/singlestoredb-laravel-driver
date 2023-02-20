@@ -88,7 +88,7 @@ trait InlinesIndexes
      * @param  Grammar  $grammar
      * @return void
      */
-    protected function addImpliedCommands(Grammar $grammar)
+    protected function addImpliedCommands(Connection $connection, Grammar $grammar)
     {
         parent::addImpliedCommands($grammar);
 
