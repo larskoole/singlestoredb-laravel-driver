@@ -91,7 +91,7 @@ trait InlinesIndexes
      */
     protected function addImpliedCommands(Connection $connection, Grammar $grammar)
     {
-        parent::addImpliedCommands($grammar);
+        parent::addImpliedCommands($connection, $grammar);
 
         $this->addFluentSingleStoreIndexes();
 
