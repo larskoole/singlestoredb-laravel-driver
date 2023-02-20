@@ -1,5 +1,5 @@
 {
-  "name": "singlestoredb/singlestoredb-laravel",
+  "name": "larskoole/singlestoredb-laravel",
   "description": "A SingleStoreDB database driver for Laravel.",
   "type": "library",
   "license": "Apache-2.0",
